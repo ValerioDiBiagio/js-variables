@@ -12,7 +12,7 @@ console.log(cityName.indexOf("y")); // Output: 4
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
 const citySubstring = 'York';
-console.log(city.substring(4,8)); // Output: "York"
+console.log(city.substring(4)); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
@@ -22,10 +22,10 @@ console.log(city.replace("York", "Delhi")); // Output:  "New Delhi"
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = '';
-console.log(cityNameConcat); // Output: "New York City"
+const cityNameConcat = 'New York City';
+console.log(city.concat(' ' + cityName)); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = '';
-console.log(upperCaseHello); // Output: "HELLO"
+const upperCaseHello = 'HELLO';
+console.log(hello.toUpperCase()); // Output: "HELLO"
