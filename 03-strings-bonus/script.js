@@ -6,13 +6,13 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = 0;
-console.log(cityIndex); // Output: 4
+const cityIndexOf = 0;
+console.log(cityName.indexOf("y")); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
-console.log(citySubstring); // Output: "York"
+const citySubstring = 'York';
+console.log(city.substring(4,8)); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
