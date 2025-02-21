@@ -26,3 +26,14 @@ console.log(numberOfLettersInAlphabet); // Output: 26
 
 const name = "Valerio";
 console.log(name);
+
+2.
+
+const number = 9;
+console.log(number);
+
+const text = "videogioco";
+console.log(text);
+
+const bool = 0;
+console.log(bool);
