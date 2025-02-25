@@ -22,12 +22,12 @@ console.log(fullName); // Output: "Jane Smith"
 const numberOfLettersInAlphabet =alphabet.length;
 console.log(numberOfLettersInAlphabet); // Output: 26
 
-1.
+// 1.
 
 const myName = "Valerio";
 console.log(myName);
 
-2.
+// 2.
 
 const number = 9;
 console.log(number);
@@ -35,7 +35,7 @@ console.log(number);
 const text = "videogioco";
 console.log(text);
 
-const bool = 0;
+const bool = true;
 console.log(bool);
 
 
